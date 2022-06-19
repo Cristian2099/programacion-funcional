@@ -6,6 +6,7 @@ public class Main {
     }
 
     private static CalculadoraLong create(){
-        return (x, y) -> x / y;
+        long var = 2l;
+        return (x, y) -> { return x / y + var;};
     }
 }
